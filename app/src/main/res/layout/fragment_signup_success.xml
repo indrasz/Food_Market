@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.auth.signup.SignupSuccessFragment">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="289.67dp"
+        android:src="@drawable/ic_success_signup"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Yeay! Completed"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="#020202" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textAlignment="center"
+        android:text="Now you are able to order\nsome foods as a self-reward"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/grey" />
+    <Button
+        android:id="@+id/btnFindFood"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:text="Find Foods"
+        android:fontFamily="@font/poppins_medium"
+        android:background="@drawable/ic_shape_bg_button_primary" />
+
+</LinearLayout>
